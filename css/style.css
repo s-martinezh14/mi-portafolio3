@@ -1,0 +1,119 @@
+/*Estilos para los navegadores*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'UbuntuCondensed';
+    font-size: 18px;
+}
+
+/*Fin estilos para los navegadores*/
+
+/*Estilos de las fuentes*/
+@font-face {
+    font-family: Acme;
+    src: url(../fonts/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: UbuntuCondensed;
+    src: url(../fonts/UbuntuCondensed-Regular.ttf);
+}
+
+/*Fin estilos de las fuentes*/
+
+/*Estilos de la barra de desplazamiento*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #182952;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #315b96;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+}
+
+/*Fin estilos de la barra de desplazamiento*/
+
+/*Estilos del logo*/
+.logo {
+    height: 50px;
+}
+
+.tituloLogo {
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+/*Fin estilos del logo*/
+
+/*Estilos de la barra de menú*/
+.color {
+    background: rgba(0, 0, 0, 0.397);
+}
+
+.top-nav-collapse {
+    background: rgba(5, 5, 5, 0.849) !important;
+}
+
+input[type="text"]::placeholder {
+    color: #ffffff;
+}
+
+/*Fin estilos de la barra de menú*/
+
+/*Estilos del color de fondo de la página web*/
+.body {
+    background: #e8e8e8;
+}
+
+/*Fin estilos del color de fondo de la página web*/
+
+/*Estilos de la imagen de fondo*/
+.img-fondo {
+    background-image: url(../img/imgFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*Fin estilos de la imagen de fondo*/
+
+/*Estilos de la línea que separa las secciones*/
+.separador {
+    border: 1px solid #170a19;
+}
+
+/*Fin esstilos de la línea que separa las secciones*/
+
+/*Estilos del botón subir*/
+.subir {
+    display: none;
+    background: #170a19;
+    padding: 15px;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    z-index: 1000;
+}
+
+/*Fin estilos del botón subir*/
+
+/*Estilos del pie de página*/
+.pie-pagina {
+    background: rgba(5, 5, 5, 0.849);
+}
+
+.refran {
+    font-style: italic;
+}
+
+/*Fin estilos del pie de página*/
